@@ -1,1 +1,7 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Blubberli/germanetTutorials.git/master)
+# GermaNet API Tutorials
+
+This repository contains two tutorials that show how to use the java- / python API for GermaNet
+
+## Java API
+
+You can find the tutorial in javaAPI directory.
