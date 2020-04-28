@@ -1,15 +1,18 @@
-# GermaNet API Tutorials
+# GermaNet Tutorials
 
-This repository contains two tutorials that show how to use the java- / python API for GermaNet
+This repository contains two tutorials that show how to use the Java-- and the Python API for GermaNet. [GermaNet](https://uni-tuebingen.de/de/142806) is a lexical semantic network that partitions the lexical
+space in a set of concepts that are interlinked with semantic relations.
 
-## Java API
+The tutorial for the Java API is located in the [javaAPI](https://github.com/Germanet-sfs/germanetTutorials/tree/master/javaAPI) directory. The Java API is located [here](https://github.com/Germanet-sfs/GermaNetApi)
 
-You can find the tutorial in javaAPI directory. If you open it directly you can only see the code and the output in readonly mode, but you cannot run the code interactively. To do so you have to install jupyter and the ijava kernel.
+The tutorial for the Python API is located in the [pythonAPI](https://github.com/Germanet-sfs/germanetTutorials/tree/master/pythonAPI) directory. The Python API can be found [here](https://github.com/Germanet-sfs/germanetpy).
 
 
-### Install jupyter
+## Install jupyter
+The tutorials are provided as interactive jupyter notebooks. That means that you can read the tutorial and run the code snippets in your browser or programming enviroment. You can also change parts of the code and adapt it to your fulfill your purposes.
+Alternatively you can just read the tutorial online without being able to run the code interactively.
 
-You can install jupyter with pip:
+To be able to run the tutorial as a jupyter notebook you have to install jupyter, which can be done with pip:
 ```
 pip install jupyterlab
 ```
@@ -17,23 +20,30 @@ or with conda:
 ```
 conda install -c conda-forge jupyterlab
 ```
-more details:
-https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+more detailed information about jupyter can be found [here](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
 
-### Install ijava kernel
+## Java API Tutorial
 
-Follow the instructions under *requirements* and *installing* to install the ijava kernel with jupyter
-https://github.com/SpencerPark/IJava#requirements
+To be able to use the java tutorial with jupyter you additionally have to install the *ijava* kernel with jupyter as it is not included in the default installation. To install it, follow the instructions under *requirements* and *installing* on [this page](https://github.com/SpencerPark/IJava#requirements).
 
-you can then go into the javaAPI directory on your machine and enter 
+Once you successfully installed the kernel, clone this repository to your local machine and cd into the javaAPI directory:
+```console
+cd germanetTutorials/javaAPI
+```
+
+There you can enter 
 ```
 jupyter notebook
 ```
+This should open a new window in your default browser where you can see the tutorial within the jupyter enviroment. Click on it to browse it and run the code.
 
-
-## python API
-You can find the tutorial in pythonAPI directory. You also have to have jupyter installed. As a python version you have to select python 3.
-Go into the pythonAPI directory on your machine and enter
+## python API tutorial
+Clone this repository to your local machine and cd into the pythonAPI directory:
+```console
+cd germanetTutorials/pythonAPI
+```
+There you can enter 
 ```
 jupyter notebook
 ```
+This should open a new window in your default browser where you can see the tutorial within the jupyter enviroment. Click on it to browse it and run the code.
